@@ -17,6 +17,15 @@ img{
     
 }
 
+
+.relative{
+    position: relative;
+
+}
+
+
+
+/*sconti*/
 .absolute{
     position: absolute;
     width: 35px;
@@ -25,22 +34,17 @@ img{
     right: 0%;
 }
 
-.relative{
-    position: relative;
 
-}
-
-
-.green{
+.sconto30{
     background-color: green;
 
 }
-.red{
+
+.sconto5{
     background-color: red;
 }
 
-
-
+/*cuore a comparsa*/
 .cuore{
     position: absolute;
     width: 35px;
@@ -56,6 +60,7 @@ img{
 
 .cuore:hover {
     opacity: 1;
+    color: red;
     
 }
 
